@@ -1,0 +1,8 @@
+-----------------------------------------ENV VARIABLES LIST-----------------------------------------
+--------------------------------------PORT=3004
+--------------------------------------SALT_WORK_FACTOR=SOMETHING_SALT_WORK
+--------------------------------------MONGO_CONNECTION=DB_URL
+--------------------------------------ACCESS_TOKEN=SOMETHING_ACCESS_TOKEN;
+--------------------------------------REFRESH_TOKEN=SOMETHING_REFRESH_TOKEN;
+--------------------------------------TOKEN_EXPIRY=SOMETHING_TOKEN_EXPIRY;
+--------------------------------------REFRESH_TOKEN_EXPIRY=SOMETHING_REFRESH_TOKEN_EXPIRY;
