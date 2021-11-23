@@ -1,8 +1,17 @@
------------------------------------------ENV VARIABLES LIST-----------------------------------------
---------------------------------------PORT=3004
---------------------------------------SALT_WORK_FACTOR=SOMETHING_SALT_WORK
---------------------------------------MONGO_CONNECTION=DB_URL
---------------------------------------ACCESS_TOKEN=SOMETHING_ACCESS_TOKEN;
---------------------------------------REFRESH_TOKEN=SOMETHING_REFRESH_TOKEN;
---------------------------------------TOKEN_EXPIRY=SOMETHING_TOKEN_EXPIRY;
---------------------------------------REFRESH_TOKEN_EXPIRY=SOMETHING_REFRESH_TOKEN_EXPIRY;
+.env
+PORT=3004
+MONGO_CONNECTION=mongodb://127.0.0.1:27017/products
+SALT_WORK_FACTOR=1245+4
+TOKEN_EXPIRY=2d
+ACCESS_TOKEN=
+REFRESH_TOKEN=
+REFRESH_TOKEN_EXPIRY=7d
+
+#AWS
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_KEY=
+DEFAULT_REGION=
+
+#NodeMailer
+G_MAIL=
+EMAIL_PASSWORD=
