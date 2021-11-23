@@ -1,0 +1,81 @@
+.spinner-wrapper {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.spinner-loader {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.loader-Span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  opacity: 0.2;
+  border: 0px solid var(--color-primary);
+  width: 40px;
+  height: 40px;
+  background: var(--color-primary);
+  animation: show 1s infinite alternate;
+}
+
+.loader-Span:nth-child(1) {
+  transform: translate(0, 0);
+  animation-delay: 0.1s;
+}
+
+.loader-Span:nth-child(2) {
+  transform: translate(40px, 0);
+  animation-delay: 0.2s;
+}
+
+.loader-Span:nth-child(3) {
+  transform: translate(80px, 0);
+  animation-delay: 0.3s;
+}
+
+.loader-Span:nth-child(4) {
+  transform: translate(0, 40px);
+  animation-delay: 0.4s;
+}
+
+.loader-Span:nth-child(5) {
+  transform: translate(40px, 40px);
+  animation-delay: 0.5s;
+}
+
+.loader-Span:nth-child(6) {
+  transform: translate(80px, 40px);
+  animation-delay: 0.6s;
+}
+
+.loader-Span:nth-child(7) {
+  transform: translate(0, 80px);
+  animation-delay: 0.7s;
+}
+
+.loader-Span:nth-child(8) {
+  transform: translate(40px, 80px);
+  animation-delay: 0.8s;
+}
+
+.loader-Span:nth-child(9) {
+  transform: translate(80px, 80px);
+  animation-delay: 0.9s;
+}
+
+@keyframes show {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}

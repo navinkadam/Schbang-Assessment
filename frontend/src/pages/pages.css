@@ -1,0 +1,16 @@
+.pages-wrapper {
+    /* display: flex; */
+    /* align-items: center; */
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: calc(100vh - 6rem);
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    /* max-width: 120rem; */
+    max-width: 100vw;
+    padding: 2rem;
+    background-color: var(--background);
+}

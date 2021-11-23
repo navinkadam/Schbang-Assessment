@@ -1,0 +1,41 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group > .form-label {
+    /* margin-bottom: 0.5rem; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    color: var(--color-primary);
+}
+
+.form-group > .form-input {
+    padding: 1rem;
+    border-radius: 0;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+    border: 0;
+    border-bottom: 0.1em solid var(--color-black);
+}
+
+.form-group > .form-error {
+    letter-spacing: 0.1rem;
+    padding: 0 1rem;
+    color: var(--color-red);
+}
+
+.form-group > .form-input:disabled {
+    background-color: transparent;
+}
+
+.form-group > .form-input:focus {
+    outline: none;
+    border-bottom-color: var(--color-primary-light);
+}

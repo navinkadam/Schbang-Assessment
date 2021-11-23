@@ -1,0 +1,68 @@
+.file-upload {
+    position: relative;
+    border: 0.1em solid;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    min-height: 100px;
+    border-radius: 5px;
+    border-style: dashed;
+    background-color: #cccccc40;
+}
+.file-upload label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.file-upload .img-container {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.file-upload .file-input {
+    cursor: pointer;
+    opacity: 0;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: -1px;
+    border-radius: 50px;
+    left: 0;
+}
+
+.file-prev-container {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1.5rem;
+}
+
+.file-prev-container .file-prev-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0.1em solid var(--shadow);
+    position: relative;
+}
+
+.file-prev-container .file-prev-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.file-prev-container .file-prev-img span {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    font-size: 1em;
+    background: var(--shadow);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

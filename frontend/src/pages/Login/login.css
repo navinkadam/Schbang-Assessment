@@ -1,0 +1,12 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    padding: 5rem;
+    margin: auto;
+    box-shadow: -0.4rem 0.8rem 1.6rem var(--shadow);
+    border-radius: 1rem;
+    text-align: center;
+    width: 100%;
+    background-color: var(--background-white);
+}

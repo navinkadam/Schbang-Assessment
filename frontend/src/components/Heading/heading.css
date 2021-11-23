@@ -1,0 +1,29 @@
+.heading {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.heading.H1 {
+  font-size: 3.5rem;
+}
+
+.heading.H2 {
+  font-size: 3rem;
+}
+
+.heading.H3 {
+  font-size: 2.5rem;
+}
+
+.heading.H4 {
+  font-size: 2rem;
+}
+
+.heading.H5 {
+  font-size: 1.5rem;
+}
+
+.heading.H6 {
+  font-size: 1rem;
+}
